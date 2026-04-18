@@ -2,5 +2,17 @@
   "shop_disclaimer": "🔍 Affiliate support coming soon. These are regular store links for now.",
   "amazon_link_template": "https://www.amazon.com/s?k={query}",
   "iherb_link_template": "https://www.iherb.com/search?kw={query}",
-  "myprotein_link_template": "https://www.myprotein.com/search?search={query}"
+  "myprotein_link_template": "https://www.myprotein.com/search?search={query}",
+  "amazon_tags": {
+    "default": "",
+    "US": "",
+    "UK": "",
+    "DE": "",
+    "CA": "",
+    "FR": "",
+    "IT": "",
+    "ES": "",
+    "AU": "",
+    "JP": ""
+  }
 }
