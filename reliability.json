@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-04-28",
+  "title": "Notification reliability",
+  "subtitle": "Make sure DosePulse reminders fire on time",
+  "intro": "Your phone may put DosePulse to sleep in the background to save battery. That can stop scheduled reminders from firing. Here's how to whitelist DosePulse on your specific phone:",
+  "brands": {
+    "samsung": {
+      "label": "Samsung Galaxy",
+      "steps": [
+        "Open Settings",
+        "Battery and device care → Battery",
+        "Background usage limits",
+        "Never auto-sleeping apps",
+        "Tap Add apps → select DosePulse"
+      ],
+      "note": "Also confirm DosePulse is not in 'Sleeping apps' or 'Deep sleeping apps'."
+    },
+    "xiaomi": {
+      "label": "Xiaomi / Redmi / POCO",
+      "steps": [
+        "Settings → Apps → Manage apps",
+        "Tap DosePulse",
+        "Battery saver → No restrictions",
+        "Back, then Autostart → toggle on",
+        "Optional: long-press DosePulse in recent apps and tap the lock icon"
+      ]
+    },
+    "huawei": {
+      "label": "Huawei / Honor",
+      "steps": [
+        "Settings → Apps → DosePulse",
+        "Battery → App launch",
+        "Switch off 'Manage automatically'",
+        "Enable Auto-launch, Secondary launch, and Run in background"
+      ]
+    },
+    "oppo": {
+      "label": "Oppo / Realme / OnePlus",
+      "steps": [
+        "Settings → Battery",
+        "Find DosePulse",
+        "Enable Allow background activity",
+        "Settings → Apps → DosePulse → Auto-launch → on"
+      ]
+    },
+    "vivo": {
+      "label": "Vivo",
+      "steps": [
+        "Settings → Battery",
+        "Background power consumption management",
+        "Find DosePulse",
+        "Set to Allow"
+      ]
+    },
+    "pixel": {
+      "label": "Google Pixel",
+      "steps": [
+        "Settings → Apps → DosePulse",
+        "Battery → Unrestricted"
+      ],
+      "note": "Pixel is usually fine without changes. You can also exclude DosePulse from Adaptive Battery if you don't open the app daily."
+    },
+    "fallback": {
+      "label": "Most Android phones",
+      "steps": [
+        "Settings → Apps → DosePulse",
+        "Battery → Unrestricted (or Don't optimize)",
+        "Allow background activity"
+      ],
+      "note": "If your phone has its own battery manager (Motorola, Nokia, ASUS, etc.), look for an option to allow DosePulse to run in the background or auto-start."
+    }
+  },
+  "checklist": [
+    "Notification permission is granted (Settings → Apps → DosePulse → Notifications → On)",
+    "Exact alarms permission is granted (Settings → Apps → DosePulse → Special access → Alarms & reminders) — required on Android 12+",
+    "Do Not Disturb isn't on at the slot time",
+    "Battery saver isn't restricting DosePulse",
+    "The supplement or activity is active (not paused) and today's weekday is in its schedule"
+  ]
+}
