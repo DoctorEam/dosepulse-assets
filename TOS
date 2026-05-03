@@ -1,1 +1,162 @@
-Not done yet
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DosePulse — Terms of Service</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #0f172a;
+      --muted: #475569;
+      --accent: #8b5cf6;
+      --rule: #e2e8f0;
+      --code-bg: #f1f5f9;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --fg: #e2e8f0;
+        --muted: #94a3b8;
+        --accent: #a78bfa;
+        --rule: #1e293b;
+        --code-bg: #1e293b;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      -webkit-text-size-adjust: 100%;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 32px 0 8px;
+      letter-spacing: -0.01em;
+    }
+    .updated {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin: 0 0 24px;
+    }
+    p, ul, ol {
+      margin: 0 0 12px;
+    }
+    ul, ol {
+      padding-left: 22px;
+    }
+    li { margin-bottom: 4px; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    strong { color: var(--fg); }
+    .callout {
+      border-left: 3px solid var(--accent);
+      background: var(--code-bg);
+      padding: 12px 16px;
+      border-radius: 6px;
+      margin: 16px 0;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--rule);
+      margin: 32px 0;
+    }
+    footer {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 32px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>DosePulse — Terms of Service</h1>
+    <p class="updated">Last updated: May 3, 2026</p>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>By installing or using DosePulse (the &ldquo;App&rdquo;), you agree to these Terms of Service. If you do not agree, do not use the App.</p>
+
+    <h2>2. The Service</h2>
+    <p>DosePulse is a personal supplement and activity reminder app. It helps you track items you wish to take or do, and sends you local reminder notifications. Your data is stored on your device.</p>
+
+    <div class="callout">
+      <h2 style="margin-top:0">3. Medical Disclaimer</h2>
+      <p><strong>DosePulse is not a medical device and does not provide medical advice, diagnosis, or treatment.</strong> Reminders and content within the App are for informational and organizational purposes only.</p>
+      <p>Always consult a qualified healthcare professional before starting, stopping, or changing any supplement, medication, diet, or exercise routine. Do not rely on the App for any medical decision. We are not responsible for missed reminders, delayed notifications, or any health outcome arising from your use of the App.</p>
+    </div>
+
+    <h2>4. Eligibility</h2>
+    <p>You must be at least 13 years old to use DosePulse. If you are under the age of majority in your jurisdiction, you must have permission from a parent or legal guardian.</p>
+
+    <h2>5. License</h2>
+    <p>We grant you a personal, non-exclusive, non-transferable, revocable license to use DosePulse on devices you own or control, subject to these Terms. You may not reverse engineer, decompile, redistribute, sublicense, or modify the App except where applicable law expressly permits it.</p>
+
+    <h2>6. Pro Subscription</h2>
+    <p>DosePulse offers an optional &ldquo;Pro&rdquo; subscription that unlocks additional features.</p>
+    <ul>
+      <li><strong>Billing.</strong> Subscriptions are sold and processed by Google Play. By purchasing, you also agree to Google Play&rsquo;s terms of sale.</li>
+      <li><strong>Auto-renewal.</strong> Subscriptions renew automatically at the end of each billing period unless cancelled at least 24 hours before the end of the current period.</li>
+      <li><strong>Cancellation.</strong> You can cancel any time from Google Play &rsaquo; Subscriptions. Cancellation takes effect at the end of the current billing period; you keep Pro access until then.</li>
+      <li><strong>Refunds.</strong> Refund requests are handled by Google under its own policies. We do not directly process refunds.</li>
+      <li><strong>Pricing.</strong> Prices may change. We will notify you of material price changes before they take effect.</li>
+    </ul>
+
+    <h2>7. Your Data</h2>
+    <p>You own the data you enter into DosePulse. The App stores your data locally on your device. For details on what we do and do not collect, see our <a href="https://doctoream.github.io/dosepulse-assets/privacy-policy.html">Privacy Policy</a>. You are responsible for backing up your data; the App provides an export tool for this purpose.</p>
+
+    <h2>8. Acceptable Use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>use the App for any unlawful purpose;</li>
+      <li>attempt to gain unauthorized access to the App or any system or network connected to it;</li>
+      <li>interfere with the App&rsquo;s notifications, alarms, or background services;</li>
+      <li>use the App to make medical, diagnostic, or treatment decisions on behalf of other people.</li>
+    </ul>
+
+    <h2>9. Intellectual Property</h2>
+    <p>DosePulse, its logo, and all associated content, design, and code are owned by us or our licensors. You may not use any of them without prior written permission, except as needed to use the App as intended.</p>
+
+    <h2>10. Notifications</h2>
+    <p>DosePulse uses your device&rsquo;s local notification system. We do not guarantee that every reminder will be delivered on time. Battery-saver features, Do-Not-Disturb modes, permission revocations, device reboots, or low-storage conditions may delay or suppress notifications. You are responsible for confirming that reminders are working as expected on your device.</p>
+
+    <h2>11. Disclaimers</h2>
+    <p>THE APP IS PROVIDED &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE,&rdquo; WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE APP WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT NOTIFICATIONS WILL ALWAYS BE DELIVERED.</p>
+
+    <h2>12. Limitation of Liability</h2>
+    <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT WILL WE BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, DATA, OR HEALTH OUTCOMES ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE APP. OUR TOTAL LIABILITY FOR ANY CLAIM ARISING OUT OF THESE TERMS WILL NOT EXCEED THE AMOUNT YOU PAID US IN THE TWELVE MONTHS BEFORE THE CLAIM.</p>
+
+    <h2>13. Termination</h2>
+    <p>We may suspend or terminate your access to the App at any time if you violate these Terms or if continued provision of the App becomes impractical. You may stop using the App at any time by uninstalling it.</p>
+
+    <h2>14. Changes to These Terms</h2>
+    <p>We may update these Terms from time to time. The &ldquo;Last updated&rdquo; date at the top will reflect any changes. Continued use of the App after a change constitutes acceptance of the updated Terms.</p>
+
+    <h2>15. Governing Law</h2>
+    <p>These Terms are governed by the laws of the jurisdiction in which the App publisher is established, without regard to its conflict-of-law provisions. Any disputes arising out of or relating to these Terms will be brought in the competent courts of that jurisdiction.</p>
+
+    <h2>16. Contact</h2>
+    <p>Questions about these Terms? Email <a href="mailto:fractal.studio.dev@gmail.com">fractal.studio.dev@gmail.com</a>.</p>
+
+    <hr />
+    <footer>&copy; 2026 DosePulse. All rights reserved.</footer>
+  </main>
+</body>
+</html>
